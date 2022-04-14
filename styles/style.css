@@ -1,5 +1,120 @@
 @font-face {
-    font-family: "OpenSans-Regular";
-    src: url("/font/OpenSans-Regular.ttf") format("ttf");
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: normal;
 }
 
+@font-face {
+	src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-style: normal;
+}
+
+.page {
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    flex-grow: 1;
+}
+
+.header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	width: 100%;
+	max-width: 1249px;
+	margin: 0 auto;
+	min-height: 89px;
+	background-color: #000000;
+}
+
+.page-header {
+	padding-top: 29px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+	margin-left: -20px;
+}
+
+.menu-item {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	min-height: 89px;
+}
+
+.menu-item:hover {
+	background-color: #ff3f40;
+}
+
+.menu-link {
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+	color: #e0e0e0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.page-content {
+    flex-grow: 1;
+}
+
+.intro {
+	padding-top: 103px;
+	padding-bottom: 94px;
+}
+
+.intro-content {
+	position: relative;
+    bottom: 11px;
+	width: 617px;
+	margin-bottom: 20px;
+	margin-right: 75px;
+}
+
+.intro-head {
+	margin: 0;
+	font-size: 60px;
+	line-height: 1.2;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+}
+
+.intro-heading-style {
+	letter-spacing: 6px;
+}
