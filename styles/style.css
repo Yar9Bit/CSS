@@ -33,21 +33,38 @@
 	font-style: normal;
 }
 
-main {
+.intro,
+.services,
+.feature,
+.team,
+.subscribe,
+.feedback__body,
+.footer__content {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: flex-start;
 	justify-content: space-between;
+	align-items: flex-start;
 	max-width: 1249px;
 	margin: 0 auto;
 	padding-left: 1vw;
 	padding-right: 1vw;
 }
 
+
 .page {
 	margin: 0;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.page-header {
+	padding-top: 29px;
+}
+
+.page-header-grey {
+	background-color: #e0e0e0;
 }
 
 .header {
@@ -60,10 +77,6 @@ main {
 	margin: 0 auto;
 	min-height: 89px;
 	background-color: #000000;
-}
-
-.page-header {
-	padding-top: 29px;
 }
 
 .menu {
@@ -99,7 +112,11 @@ main {
 }
 
 .page-content {
-    flex-grow: 1;
+	flex-grow: 1;
+}
+
+.page-intro-grey {
+	background-color: #e0e0e0;
 }
 
 .intro {
@@ -115,7 +132,7 @@ main {
 	margin-right: 75px;
 }
 
-.intro-head {
+.intro-heading {
 	margin: 0;
 	font-size: 60px;
 	line-height: 1.2;
@@ -124,39 +141,42 @@ main {
 	margin-bottom: 18px;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 800;
+	letter-spacing: 1.5px;
 }
 
 .intro-heading-style {
 	letter-spacing: 6px;
+	word-break: break-word;
+	hyphens: auto;
+}
+
+.intro-text {
+	max-width: 520px;
+	margin-bottom: 51px;
+	opacity: 0.7; 
 }
 
 .action-button {
 	box-sizing: border-box;
-	font-family: 'OpenSans';
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	display: inline-block;
-	border-radius: 5px;
 	width: 227px;
 	padding: 16px 0;
 	text-align: center;
-	background-color: red;
-	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 5px;
 }
 
-.intro-img{
+.action-button-red {
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #ff2d2d;
+}
+
+.intro-img {
 	width: 551px;
 	height: 356px;
-
+	box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
 }
 
-.button-more {
-	border: solid;
-	box-sizing: border-box;
-	font-family: 'OpenSans';
-	display: inline-block;
-	border-radius: 5px;
-	width: 227px;
-	height: 55px;
-	padding: 16px 0;
-	text-align: center;
-	color: #ff3f40;
-}
