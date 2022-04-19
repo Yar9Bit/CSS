@@ -33,6 +33,17 @@
 	font-style: normal;
 }
 
+main {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	max-width: 1249px;
+	margin: 0 auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
 .page {
 	margin: 0;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -117,4 +128,35 @@
 
 .intro-heading-style {
 	letter-spacing: 6px;
+}
+
+.action-button {
+	box-sizing: border-box;
+	font-family: 'OpenSans';
+	display: inline-block;
+	border-radius: 5px;
+	width: 227px;
+	padding: 16px 0;
+	text-align: center;
+	background-color: red;
+	color: #FFFFFF;
+}
+
+.intro-img{
+	width: 551px;
+	height: 356px;
+
+}
+
+.button-more {
+	border: solid;
+	box-sizing: border-box;
+	font-family: 'OpenSans';
+	display: inline-block;
+	border-radius: 5px;
+	width: 227px;
+	height: 55px;
+	padding: 16px 0;
+	text-align: center;
+	color: #ff3f40;
 }
