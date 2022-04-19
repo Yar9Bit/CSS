@@ -180,3 +180,84 @@
 	box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
 }
 
+.services {
+	padding-top: 106px;
+	padding-bottom: 53px;
+	border-bottom: 1px solid #ececec;
+}
+
+.services-lead {
+	flex: 1 1 502px;
+	max-width: 502px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+}
+
+.services-heading {
+	position: relative;
+    bottom: 5px;
+	margin-bottom: 27px;
+}
+
+.services-text {
+	margin-bottom: 51px;
+}
+
+.action-button-white {
+	font-size: 15px;
+	color: #ff3f40;
+	background-color: #ffffff;
+	border: 2px solid #ff3f40;
+}
+
+.services-blocks {
+	flex: 1 1;
+	max-width: 609px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service {
+	flex: 1 1 288px;
+	width: 288px;
+	margin-bottom: 50px;
+}
+
+.service:nth-child(odd) {
+	margin-right: 32px;
+}
+
+.service-heading {
+	letter-spacing: 1.5px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.service-heading::before {
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin-bottom: 23px;
+}
+
+.service-text {
+	opacity: 0.7;
+}
+
+.service-heading-manage::before {
+	content: url('../images/service-1.png');
+}
+
+.service-heading-ux::before {
+	content: url('../images/service-2.png');
+}
+
+.service-heading-brand::before {
+	content: url('../images/service-3.png');
+}
+
+.service-heading-anim::before {
+	content: url('../images/service-4.png');
+}
